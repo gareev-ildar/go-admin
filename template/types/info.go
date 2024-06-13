@@ -9,18 +9,18 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/GoAdminGroup/go-admin/modules/config"
+	"github.com/gareev-ildar/go-admin/modules/config"
 
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/db"
-	"github.com/GoAdminGroup/go-admin/modules/errors"
-	"github.com/GoAdminGroup/go-admin/modules/language"
-	"github.com/GoAdminGroup/go-admin/modules/logger"
-	"github.com/GoAdminGroup/go-admin/modules/utils"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/parameter"
-	"github.com/GoAdminGroup/go-admin/template/types/form"
-	"github.com/GoAdminGroup/go-admin/template/types/table"
+	"github.com/gareev-ildar/go-admin/context"
+	"github.com/gareev-ildar/go-admin/modules/db"
+	"github.com/gareev-ildar/go-admin/modules/errors"
+	"github.com/gareev-ildar/go-admin/modules/language"
+	"github.com/gareev-ildar/go-admin/modules/logger"
+	"github.com/gareev-ildar/go-admin/modules/utils"
+	"github.com/gareev-ildar/go-admin/plugins/admin/modules"
+	"github.com/gareev-ildar/go-admin/plugins/admin/modules/parameter"
+	"github.com/gareev-ildar/go-admin/template/types/form"
+	"github.com/gareev-ildar/go-admin/template/types/table"
 )
 
 // FieldModel is the single query result.

@@ -1,18 +1,18 @@
 package admin
 
 import (
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/modules/service"
-	"github.com/GoAdminGroup/go-admin/modules/system"
-	"github.com/GoAdminGroup/go-admin/modules/utils"
-	"github.com/GoAdminGroup/go-admin/plugins"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/controller"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/table"
-	"github.com/GoAdminGroup/go-admin/template/types"
-	"github.com/GoAdminGroup/go-admin/template/types/action"
-	_ "github.com/GoAdminGroup/go-admin/template/types/display"
+	"github.com/gareev-ildar/go-admin/context"
+	"github.com/gareev-ildar/go-admin/modules/config"
+	"github.com/gareev-ildar/go-admin/modules/service"
+	"github.com/gareev-ildar/go-admin/modules/system"
+	"github.com/gareev-ildar/go-admin/modules/utils"
+	"github.com/gareev-ildar/go-admin/plugins"
+	"github.com/gareev-ildar/go-admin/plugins/admin/controller"
+	"github.com/gareev-ildar/go-admin/plugins/admin/modules/guard"
+	"github.com/gareev-ildar/go-admin/plugins/admin/modules/table"
+	"github.com/gareev-ildar/go-admin/template/types"
+	"github.com/gareev-ildar/go-admin/template/types/action"
+	_ "github.com/gareev-ildar/go-admin/template/types/display"
 )
 
 // Admin is a GoAdmin plugin.

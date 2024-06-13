@@ -11,12 +11,12 @@ import (
 	"strconv"
 	textTmpl "text/template"
 
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/modules/menu"
-	"github.com/GoAdminGroup/go-admin/modules/system"
-	"github.com/GoAdminGroup/go-admin/modules/utils"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/models"
+	"github.com/gareev-ildar/go-admin/context"
+	"github.com/gareev-ildar/go-admin/modules/config"
+	"github.com/gareev-ildar/go-admin/modules/menu"
+	"github.com/gareev-ildar/go-admin/modules/system"
+	"github.com/gareev-ildar/go-admin/modules/utils"
+	"github.com/gareev-ildar/go-admin/plugins/admin/models"
 )
 
 // Attribute is the component interface of template. Every component of

@@ -11,16 +11,16 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/GoAdminGroup/go-admin/adapter"
-	gctx "github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/engine"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/plugins"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/models"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/constant"
-	"github.com/GoAdminGroup/go-admin/template/types"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/context"
+	"github.com/gareev-ildar/go-admin/adapter"
+	gctx "github.com/gareev-ildar/go-admin/context"
+	"github.com/gareev-ildar/go-admin/engine"
+	"github.com/gareev-ildar/go-admin/modules/config"
+	"github.com/gareev-ildar/go-admin/plugins"
+	"github.com/gareev-ildar/go-admin/plugins/admin/models"
+	"github.com/gareev-ildar/go-admin/plugins/admin/modules/constant"
+	"github.com/gareev-ildar/go-admin/template/types"
 )
 
 // Beego structure value is a Beego GoAdmin adapter.

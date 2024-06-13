@@ -5,21 +5,21 @@ import (
 	template2 "html/template"
 	"net/http"
 
-	"github.com/GoAdminGroup/go-admin/template"
+	"github.com/gareev-ildar/go-admin/template"
 
-	"github.com/GoAdminGroup/go-admin/modules/logger"
+	"github.com/gareev-ildar/go-admin/modules/logger"
 
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/response"
+	"github.com/gareev-ildar/go-admin/plugins/admin/modules/response"
 
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/auth"
-	"github.com/GoAdminGroup/go-admin/modules/file"
-	"github.com/GoAdminGroup/go-admin/modules/language"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/constant"
-	form2 "github.com/GoAdminGroup/go-admin/plugins/admin/modules/form"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard"
-	"github.com/GoAdminGroup/go-admin/template/types"
+	"github.com/gareev-ildar/go-admin/context"
+	"github.com/gareev-ildar/go-admin/modules/auth"
+	"github.com/gareev-ildar/go-admin/modules/file"
+	"github.com/gareev-ildar/go-admin/modules/language"
+	"github.com/gareev-ildar/go-admin/plugins/admin/modules"
+	"github.com/gareev-ildar/go-admin/plugins/admin/modules/constant"
+	form2 "github.com/gareev-ildar/go-admin/plugins/admin/modules/form"
+	"github.com/gareev-ildar/go-admin/plugins/admin/modules/guard"
+	"github.com/gareev-ildar/go-admin/template/types"
 )
 
 // ShowNewForm show a new form page.

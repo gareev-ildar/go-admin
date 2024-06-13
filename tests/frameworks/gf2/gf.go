@@ -4,32 +4,32 @@ import (
 	// add gf adapter
 	"reflect"
 
-	_ "github.com/GoAdminGroup/go-admin/adapter/gf2"
 	"github.com/agiledragon/gomonkey"
+	_ "github.com/gareev-ildar/go-admin/adapter/gf2"
 
 	// add mysql driver
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/mysql"
-	"github.com/GoAdminGroup/go-admin/modules/language"
+	"github.com/gareev-ildar/go-admin/modules/config"
+	_ "github.com/gareev-ildar/go-admin/modules/db/drivers/mysql"
+	"github.com/gareev-ildar/go-admin/modules/language"
 
 	// add postgresql driver
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/postgres"
+	_ "github.com/gareev-ildar/go-admin/modules/db/drivers/postgres"
 	// add sqlite driver
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/sqlite"
+	_ "github.com/gareev-ildar/go-admin/modules/db/drivers/sqlite"
 	// add mssql driver
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/mssql"
+	_ "github.com/gareev-ildar/go-admin/modules/db/drivers/mssql"
 	// add adminlte ui theme
 	"github.com/GoAdminGroup/themes/adminlte"
 
 	"net/http"
 	"os"
 
-	"github.com/GoAdminGroup/go-admin/engine"
-	"github.com/GoAdminGroup/go-admin/plugins/admin"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/table"
-	"github.com/GoAdminGroup/go-admin/template"
-	"github.com/GoAdminGroup/go-admin/template/chartjs"
-	"github.com/GoAdminGroup/go-admin/tests/tables"
+	"github.com/gareev-ildar/go-admin/engine"
+	"github.com/gareev-ildar/go-admin/plugins/admin"
+	"github.com/gareev-ildar/go-admin/plugins/admin/modules/table"
+	"github.com/gareev-ildar/go-admin/template"
+	"github.com/gareev-ildar/go-admin/template/chartjs"
+	"github.com/gareev-ildar/go-admin/tests/tables"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/net/ghttp"
 )
